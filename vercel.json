@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/outputs/composio_app_toolkit_research_case_study.html"
+    }
+  ]
+}
