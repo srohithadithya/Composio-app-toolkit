@@ -1,0 +1,12 @@
+{
+  "name": "composio-app-toolkit-research",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "agent": "node scripts/research_agent.mjs",
+    "audit": "node scripts/research_agent.mjs --audit",
+    "export:json": "node scripts/research_agent.mjs --export-json outputs/research_dataset.json",
+    "serve": "node scripts/static_server.mjs 4173"
+  }
+}
